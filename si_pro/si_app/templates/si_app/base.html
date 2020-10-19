@@ -18,15 +18,16 @@
         </div>
       <ul class="nav navbar-nav">
         <li class=""><a href="Home"></a></li>
-        <li ><a href="{% url 'algo' %}">Algorítimos</a></li>
-        <li ><a href="{% url 'arq' %}">Arquitetura</a></li>
-        <li ><a href="{% url 'ing' %}">Inglês</a></li>
-        <li ><a href="{% url 'proj' %}">Projetos</a></li>
-        <li ><a href="{% url 'moni' %}">Monitoria</a></li>
-		    <li ><a href="{% url 'quemsou' %}">Quem Sou</a></li>
+        <li ><a href="{% url 'si_app:algo' %}">Algorítimos</a></li>
+        <li ><a href="{% url 'si_app:arq' %}">Arquitetura</a></li>
+        <li ><a href="{% url 'si_app:ing' %}">Inglês</a></li>
+        <li ><a href="{% url 'si_app:proj' %}">Projetos</a></li>
+        <li ><a href="{% url 'si_app:moni' %}">Monitoria</a></li>
+		    <li ><a href="{% url 'si_app:quemsou' %}">Quem Sou</a></li>
       </ul>
       </div>
     </nav>
     {% block body_block %}
     {% endblock %}
+
   </body>
